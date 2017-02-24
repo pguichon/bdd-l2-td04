@@ -38,3 +38,5 @@ INSERT INTO "commune" ("cod_com", "cod_pos", "label") VALUES
   ('41100', '41160', 'MOREE'),
   ('41101', '41160', 'VENDOME')
 
+INSERT INTO "adresse" ("id", "label", "individu_id", "pays_id", "commune_cod_com", "commune_cod_pos") VALUES
+  (1, '75 rue tartanpion', 1, 1, '75015', '75015');
